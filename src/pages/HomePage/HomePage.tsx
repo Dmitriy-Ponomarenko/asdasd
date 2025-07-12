@@ -7,7 +7,7 @@ import '../../index.css';
 export const HomePage: React.FC = () => {
   return (
     <section className={`${styles.homeSection} section`}>
-      <div></div>
+      <div className={`${styles.homeContainer} container`}></div>
     </section>
   );
 };
